@@ -6,14 +6,15 @@
 
 body {
     width: 100vh;
-    background: #0F0D13; 
+    background: #0F0D13;
+    color: #E1E1E6;
 }
 
 .projeto {
     display: flex;
     align-items: center;
-    width: 100%;
-    height: 631px;
+    justify-content: center;
+    width: 215vh;
     flex-shrink: 0;
 }
 
@@ -31,16 +32,12 @@ body {
 }
 
 #frame1 #name-album h1 {
-    display: flex;
-    flex-direction: column;
-    color: #E1E1E6;
     font-size: 24px;
     gap: 9.6px;
     font-weight: bold;
 }
 
 #name-album p {
-    color: #E1E1E6;
     font-size: 19px;
     font-weight: 100;
 }
@@ -49,13 +46,11 @@ body {
     display: flex;
     gap: 50.42px;
     font-size: 20px;
-    color: #E1E1E6;
 }
 
 .time {
     display: flex;
     justify-content: space-between;
-    color: #E1E1E6;
 }
 
 #frame2 {
@@ -63,7 +58,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 358px;
     padding: 38.41px;
     margin: 66px 190px 314px 89px;
     border-radius: 9.603px;
@@ -76,11 +70,9 @@ body {
     gap: 28.81px;
 }
 
-#title #name {
+#name2 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 #frame3 {
@@ -88,16 +80,23 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 358px;
+    height: 199px;
     padding: 38.41px;
-    margin: 365px 190px 83px -389px;
+    margin: 365px 190px 83px -590px;
     border-radius: 9.603px;
     background: #2A2141;
     gap: 28.81px;
 }
 
-#frame3 #title {
+#title {
     display: flex;
-    flex-direction: row;
     gap: 28.81px;
+}
+
+#name h1{
+    width: 30vh;
+    display:flex;
+    font-size: 24px;
+    gap: 9.6px;
+    font-weight: bold;
 }
